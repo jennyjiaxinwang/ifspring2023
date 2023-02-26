@@ -39,7 +39,7 @@ section {
     padding-bottom: 37px;
 }
 section:first-of-type {
-    background-color: rgba(0,0,255,0.3);
+    background-color: blanchedalmond;
 }
 
 .main-column {
@@ -67,16 +67,70 @@ img {
     margin-bottom: 25px;
 }
 .section2 {
-    background-color: rgba(123, 255, 0, 0.3);
+    background-color: rgb(255, 168, 38);
+}
+section h2 {
+    margin-bottom: 33px;
+}
+.grid-setup {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 523px;
+    width: 960px;
+    margin-left: 0px;
+    position:relative;
 }
 .grid {
-    display: flex;
-    flex-wrap: wrap;
+    padding: 0px;
 }
-li img {
-    width: 200px;
-    height: 150px;
+ul {
+    margin: 0px;
+    list-style-type: disc;
 }
 h3 {
-
+    margin: 0px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.grid li {
+    text-align: left;
+    list-style: none;
+    display: block;
+    margin-bottom: 0;
+    margin-left: 227px;
+    
+}
+.grid img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    object-fit: cover;
+    padding-right: 13px;
+}
+.grid-setup li {
+    width: 100%;
+}
+li p {
+    font-size: 18px;
+}
+.section3 {
+    background-color: rgb(198, 211, 255);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 81px;
+}
+.section3 p {
+    font-size: 26px;
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;
+    line-height: 36px;
+}
+.section4 {
+    background-color: blanchedalmond;
+}
+footer {
+    display: block;
+    margin-top: 42px;
 }
