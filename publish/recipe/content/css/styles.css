@@ -1,0 +1,67 @@
+
+element.style {
+}
+html {
+    background-color: rgb(222, 217, 201);
+    text-align: center;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+head {
+    display: none;
+}
+html {
+    background-color: rgb(222, 217, 201);
+    text-align: center;
+}
+title {
+    display: none;
+}
+html {
+    background-color: rgb(222, 217, 201);
+    text-align: center;
+}
+body {
+    color: darkslategray;
+    width: 900px;
+    background-color: rgb(255, 252, 247);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+html {
+    background-color: rgb(222, 217, 201);
+    text-align: center;
+}
+.ingredients {
+    text-align: left;
+    margin-left: 60px;
+}
+.buns2 {
+    margin-left: -435px;
+    margin-top: 45px;
+}
+.sites {
+    text-align: left;
+    width: 400px;
+}
+.recipes {
+    text-align: left;
+    width: 400px;
+}
+.steps {
+    text-align: left;
+    margin-left: 450px;
+    margin-top: -1950px;
+    margin-right: 50px;
+}

@@ -1,0 +1,88 @@
+html {
+    background-color: rgb(231, 255, 187);
+    text-align: center;
+}
+
+h1 {
+    color:rgb(9, 157, 41)
+}
+
+h2 {
+    color:rgb(204, 88, 0)
+}
+
+h4 {
+    color:rgb(9, 157, 41)
+}
+
+body {
+    color:beige;
+    display: block;
+    margin: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+
+section {
+        width: 600px;
+        background-color: rgb(255, 154, 12);
+        padding: 20px;
+        border-radius: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+
+p {
+    font-family:'Montserrat', sans-serif;
+    margin-bottom: 30px;
+  }
+
+.fontweight {
+    text-align: left;
+    margin-left: 115px;
+}
+.fontstyle {
+    text-align: left;
+    margin-left: 115px;
+}
+.letterspacing {
+    text-align: left;
+    margin-left: 115px;
+}
+.texttransform {
+    text-align: left;
+    margin-left: 115px;
+}
+.textdecor {
+    text-align: left;
+    margin-left: 115px;
+}
+.bold {
+    font-weight: bold;
+  }
+
+.italic {
+    font-style: italic;
+}
+.negative5 {
+    letter-spacing: -0.8px
+}
+.positive5 {
+    letter-spacing: 0.8px
+}
+.lower {
+    text-transform: lowercase;
+}
+.upper {
+    text-transform: uppercase;
+}
+.cap {
+    text-transform: capitalize;
+}
+.under {
+    text-decoration: underline;
+}
+.strike {
+    text-decoration: line-through;
+}

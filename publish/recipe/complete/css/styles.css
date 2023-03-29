@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+.icon {
+    width: 30px;    
+    height: 30px;
+}
+
+header {
+    height: 75px;
+    background-color: #EF6603;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.typeCenter{
+    text-align: center;
+    font-size: 58px;
+    
+}
+
+.titleSection{
+    background-color: #F6F6F6;
+    padding: 5% 8%;
+    column-gap: 10%;
+    margin: 165px 0px 50px 0;
+}
+
+.titleSection h1 {
+    width: 30%;
+    font-size: 30px;
+}
+
+.titleSection .info {
+    margin-top: 232px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.imageDiv{
+    overflow: hidden;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+
+.imageDiv.center {
+    width: 385px;
+    height: 385px;
+    border-radius: 100%;
+    position: absolute;
+    top: 226px;
+}
+
+.centeredImageDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#buns {
+    background-image:url("../images/10bunrex-articleLarge.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#singlebun {
+    background-image: url(../images/IMG_3646.webp);
+    background-size: 100%;
+}
+
+#sixbuns {
+    background-image: url(../images/Swedish-Cardamom-Buns-35.jpg);
+    border-radius: 30px;
+    /* background-image: url(../images/IMG_3646.webp); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+}
+.imageDiv.column{
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+img{
+    height: 300px
+}
+#main section {    
+    /* OVERFLOW SCROLL */
+    /* height: 90vh; */
+    /* overflow: scroll; */
+}
+
+.ingredients{
+    width: 40%;
+}
+.steps{
+    width: 60%;
+}
+
+#main{
+    padding: 0% 10%;
+    column-gap: 5%;
+}
+
+footer{
+    height: 100px;
+    background-color: #EF6603;
+    margin-top: 40px;
+}
+
+h2{
+    color: #EF6603;
+}
+
+.ingredients ul li{
+    display: block;
+}
+
+.ingredients ul{
+    padding: 0;
+}
+
+.steps ol {
+    padding: 0;
+}
+
+.steps ol li{
+    list-style-position: inside;
+    margin: 20px 0;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+@media screen and (max-width: 390px) {
+    *{
+        /* border: 1px solid red; */
+    }
+    .mobile {   
+        display: block;
+    }
+    .desktop {
+        display: none;
+    } 
+
+    .flex-row {
+        flex-direction: column;
+    }    
+
+    .imageDiv{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .imageDiv.center{
+        top: 350px;
+    }
+
+    .titleSection{
+        margin-bottom: 0;
+    }
+
+    .titleSection .info {
+        margin-top: 150px;
+    }
+    section.mobile {
+        padding: 20px 40px;
+    }
+
+    #main section {
+        width: 100%;
+        height: unset;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    
+
+}
+.steps h2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.ingredients .textInfo {
+    margin-bottom: 20px;
+}
