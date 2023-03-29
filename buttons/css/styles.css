@@ -1,0 +1,586 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* buttons start */
+/* harley */
+a#btn_hd {
+    display: block;
+    width: 225px;
+    height: 225px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+.hd {
+    width: 400px;
+    margin-top: -26px;
+    margin-left: -87px;
+}
+
+a#btn_hd:hover {
+    display: block;
+    width: 225px;
+    height: 225px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+/* lyft */
+
+.lf { 
+    width: 220px;
+    margin-top: 34px;
+} 
+
+a#btn_lf {
+    display: block;
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #FFC6E8;
+    transition: all .2s;
+}
+a#btn_lf:hover {
+    width: 220px;
+  height: 220px;
+  background: linear-gradient(to bottom, #FF2CAB, #E8008B);
+}
+/* nike */
+
+.nk2 {
+width: 132px;
+margin-left: 8px;
+ margin-top: 19px;
+}
+
+a#btn_nk {
+    display: block;
+    width: 225px;
+    height: 98px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 77px;
+    padding-top: 8px;
+    background-color: #000000;
+    transition: all .2s;
+}
+a#btn_nk:hover {
+    background-color: #000000;
+    box-shadow: 0 10px 20px #dda732;
+}
+a#btn_nk:hover .nk2 {
+    width: 160px;
+}
+/* coke */
+.coke {
+    width: 506px;
+    margin-top: 4px;
+    margin-left: -140px;
+}
+a#btn_co {
+    display: block;
+    width: 225px;
+    height: 225px;
+    box-sizing: border-box;
+    border-radius: 167px;
+    margin: auto;
+    margin-top: 18px;
+    padding-top: 8px;
+    background-color: #530000;
+    transition: all .2s;
+}
+a#btn_co:hover {
+    background-image: url(https://i0.wp.com/eyestotheskyballoonfestival.com/wp-content/uploads/2017/02/coca-cola-bottle-logo-png.jpg?ssl=1);
+    background-repeat: none;
+    background-position: absolute;
+    background-size: 225px;
+}
+a#btn_co:hover .coke {
+    display: none;
+}
+/* tesla */
+.tesla {
+    width: 315px;
+    margin-top: -8px;
+    margin-left: -44px;
+}
+a#btn_ts {
+    display: block;
+    width: 225px;
+    height: 225px;
+    box-sizing: border-box;
+    border-radius: 167px;
+    margin: auto;
+    margin-top: 18px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    transition: all .2s;
+}
+a#btn_ts:hover {
+    display: flex;
+    background-image: url(https://lh4.googleusercontent.com/UWX9rGtxa6wAK1duiV9Cehk9KxNcu72dFJg8BXNRN6gdL14OxyC5uv9kWF2WI_79NBQvkgcNL2zyL2Twc78cKyqCbuogr7FLSjfyCoSD9JRZMivC1mKiVfW_wI1lDcAa0nAKCNIGa0IXIwl15Q);
+    background-size: 279px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a#btn_ts:hover .tesla {
+    display: none;
+}
+/* old navy */
+
+a#btn_on {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    border-radius: 77px;
+    margin-top: 77px;
+    padding: 35px 29px 0px 29px;
+    background-color: #023764;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    /* text-align: center; */
+  }
+  
+  a#btn_on:hover {
+    transform: rotate(-30deg);
+  }
+  
+  a#btn_on span {
+    display: inline-block;
+    transform: rotate(30deg);
+  }
+  .oldnavy {
+    margin-top: 50px;
+  }
+/* nbc */
+a#btn_nbc {
+    display: block;
+    width: 225px;
+    height: 225px;
+    box-sizing: border-box;
+    border-radius: 167px;
+    margin: auto;
+    margin-top: 18px;
+    padding-top: 8px;
+    background-color: #000000;
+    transition: all .7s;
+}
+a#btn_nbc:hover {
+    background-image: url(https://pentagram-production.imgix.net/05eee790-f1a9-47fd-aadc-7676f8eafd7e/emo_tonightshow_01.jpg?rect=%2C%2C%2C&w=640&fm=jpg&q=70&auto=format;);
+    background-size: 250px;
+    background-position: center;
+}
+/* npr */
+
+a#btn_npr {
+  display: block;
+  margin: auto;
+  width: 58px;
+  height: 65px;
+  box-sizing: border-box;
+  background-color: #F1452A;
+  margin-top: 100px;
+  padding-top: 8px;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+a#btn_npr .npr {
+display: none;
+}
+
+.n {
+    width: 80px;
+    height: 80px;
+    margin-top: -15px;
+    margin-left: -11px;
+}
+
+.npr {
+    width: 80px;
+    height: 80px;
+    margin-top: -20px;
+    margin-left: -13px;
+}
+  
+a#btn_npr:hover {
+    transform:scaleX(3);
+}  
+a#btn_npr:hover .npr {
+    display: block;
+}
+a#btn_npr:hover .n {
+    display: none;
+}
+/* army */
+
+.army {
+width: 200px;
+margin-top: -156px;
+margin-left: 0px;
+}
+
+a#btn_us {
+    display: block;
+    width: 258px;
+    height: 98px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 134px;
+    padding-top: 8px;
+    background-color: #424242;
+    transition: all .2s;
+}
+
+a#btn_us:hover {
+    background-color: #272727;
+    box-shadow: 0 10px 20px #000000;
+}
+a#btn_us:hover .armytext {
+    width: 200px;
+    margin-top: -34px;
+}
+
+/* apple */
+
+.applefull {
+    width: 200px;
+    margin-top: -44px;
+    margin-left: -27px;
+
+}
+a#btn_ap {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 59px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    transition: all .2s;
+}
+a#btn_ap .applebite {
+    display: none;
+}
+a#btn_ap:hover {
+    /* background-color: #2785ff; */
+    box-shadow: 20px 20px #acacac;
+}
+a#btn_ap:hover .applefull {
+    display: none;
+}
+a#btn_ap:hover .applebite {
+    display: block;
+    width: 200px;
+    margin-top: -44px;
+    margin-left: -27px;
+}
+
+/* ibm */
+
+.ibmblack { 
+    width: 220px;
+    margin-top: 53px;
+} 
+
+a#btn_ibm {
+    display: block;
+    width: 220px;
+    height: 143px;
+    box-sizing: border-box;
+    border-radius: 70px;
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    transition: all .2s;
+}
+a#btn_ibm .ibmwhite {
+    display: none;
+}
+
+a#btn_ibm:hover {
+    width: 220px;
+    height: 143px;
+    box-sizing: border-box;
+    border-radius: 70px;
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #ffffff;
+}
+a#btn_ibm:hover .ibmwhite {
+    display: block;
+    width: 220px;
+    margin-top: 62px;
+    margin-left: 5px;
+}
+a#btn_ibm:hover .ibmblack {
+    display: none;
+}
+
+
+/* foreflight */
+
+.ff1 { 
+    width: 220px;
+    margin-top: -9px;
+} 
+
+a#btn_ff {
+    display: block;
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #628ca9;
+    transition: all .2s;
+}
+a#btn_ff .ff2 {
+    display: none;
+}
+
+a#btn_ff:hover {
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    /* border-radius: 70px; */
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #7ab1d5;
+}
+a#btn_ff:hover .ff2 {
+    display: block;
+    width: 220px;
+    margin-top: -9px;
+    margin-left: 0px;
+}
+a#btn_ff:hover .ff1 {
+    display: none;
+}
+/* new yorker */
+
+.ny {
+    width: 288px;
+    margin-top: 55px;
+    margin-left: -32px;
+}
+a#btn_ny {
+    display: block;
+    width: 225px;
+    height: 225px;
+    box-sizing: border-box;
+    border-radius: 167px;
+    margin: auto;
+    margin-top: 18px;
+    padding-top: 8px;
+    background-color: #D32D39;
+    transition: all .2s;
+}
+a#btn_ny:hover {
+    background-image: url(https://play-lh.googleusercontent.com/hL1W_sPILheE9bRhcm006GAWOpx_FFXorTmwwXETGFeaTtCD-V7a9mu7Ytb3bd4-zl93);
+    background-repeat: none;
+    background-position: absolute;
+    background-size: 225px;
+}
+a#btn_ny:hover .ny {
+    display: none;
+}
+
+
+/* hsn */
+a#btn_hsn {
+    display: inline-block;
+    width: 261px;
+    height: 127px;
+    border-radius: 100%;
+    margin-top: 71px;
+    background: linear-gradient(to bottom, #1B4A9D, #00B2F3);
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: #000000;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  a#btn_hsn:hover {
+    transform: rotate(360deg);
+  }
+/* motortrend */
+.mt {
+    width: 400px;
+    margin-top: -41px;
+    margin-left: -34px;
+}
+a#btn_mt {
+    display: inline-block;
+    width: 350px;
+    height: 269px;
+    border-radius: 5%;
+    margin-top: -6px;
+    margin-left: -37px;
+    background-color: rgb(110, 0, 0);
+    transition: transform 0.3s ease-in-out;
+  }
+  a#btn_mt:hover {
+    background-image: url(https://download.logo.wine/logo/Motor_Trend/Motor_Trend-Logo.wine.png);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: 333px;
+  }
+  a#btn_mt:hover .mt {
+    display: none;
+  }
+/* moo */
+.moowhite { 
+    width: 220px;
+    margin-top: -9px;
+} 
+
+a#btn_moo {
+    display: block;
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #628ca9;
+    transition: all .2s;
+}
+a#btn_moo .moodark {
+    display: none;
+}
+
+a#btn_moo:hover {
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    /* border-radius: 70px; */
+    margin: auto;
+    margin-top: 19px;
+    padding-top: 8px;
+    background-color: #7ab1d5;
+}
+a#btn_moo:hover .moodark {
+    display: block;
+    width: 220px;
+    margin-top: -9px;
+    margin-left: 0px;
+}
+a#btn_moo:hover .moowhite {
+    display: none;
+}
+/* samsung */
+.sam {
+    width: 262px;
+    margin-top: -109px;
+    margin-left: -12px;
+}
+
+a#btn_sam {
+    display: block;
+    width: 241px;
+    height: 61px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 99px;
+    padding-top: 8px;
+    background-color: #d7d7d7;
+    transition: all .2s;
+}
+a#btn_sam:hover {
+    width: 241px;
+  height: 61px;
+  background: linear-gradient(to bottom, #dadfff, #10218B);
+}
+/* cn */
+/* ideo */
+.ideo {
+    width: 250px;
+    margin-top: -9px;
+    margin-left: -31px;
+}
+a#btn_ideo {
+    display: inline-block;
+    height: 98px;
+    width: 271px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: -6px;
+    padding: 10px 40px 0 40px;
+    background-color: #36CBC7;
+    border: 4px solid #0c8480;
+
+    transition: all .5s;
+}
+a#btn_ideo:hover {
+    background-color: #FF4E00;
+    border: 4px solid #935331;
+    color: #000;
+}
+/* mk */
